@@ -1,0 +1,127 @@
+.todolist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-title {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.done-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+/* TodoList.css */
+
+.input-area {
+  margin-bottom: 20px;
+}
+
+.input-field {
+  padding: 5px;
+  width: 200px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.list-area {
+  display: flex;
+  justify-content: center;
+}
+
+.listitem {
+  width: 100%;
+}
+
+/* ListItem.css */
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-title {
+  margin: 0;
+}
+
+.btn {
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.done-btn {
+  background-color: #28a745;
+  color: #fff;
+}
